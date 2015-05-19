@@ -1,0 +1,24 @@
+/**
+ * Created by Nin on 19/05/2015.
+ */
+public class lingkaran {
+    private int jarijari;
+    private double luas;
+    private double keliling;
+
+    public lingkaran(int r){
+        jarijari=r;
+    }
+    public void cetakhasil(){
+        System.out.println("-----lingkaran-----");
+        System.out.println("jari-jari lingkaran="+jarijari);
+    }
+    public void perhitunganlngkrn(){
+        luas = Math.PI*jarijari*jarijari;
+        System.out.println("Luas lingkaran="+luas);
+
+        keliling=Math.PI*(jarijari+jarijari);
+        System.out.println("keliling lingkaran="+keliling);
+    }
+
+}

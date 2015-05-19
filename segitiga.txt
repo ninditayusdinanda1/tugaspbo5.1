@@ -1,0 +1,29 @@
+/**
+ * Created by Nin on 19/05/2015.
+ */
+public class segitiga {
+    private int alas;
+    private int tinggi;
+    private int garming;
+    private double luas;
+    private double keliling;
+
+    public segitiga(int als,int tngg,int grmng){
+        alas=als;
+        tinggi=tngg;
+        garming=grmng;
+    }
+    public void cetak(){
+        System.out.println("---segitiga---");
+        System.out.println("alas= "+alas);
+        System.out.println("tinggi= "+tinggi);
+        System.out.println("garis miring"+garming);
+    }
+    public void perhitungansgtg(){
+        luas = 0.5*alas*tinggi;
+        System.out.println("luas segitiga= "+luas);
+
+        keliling=alas+tinggi+garming;
+        System.out.println("keliling segitiga= "+keliling);
+    }
+}

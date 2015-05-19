@@ -1,0 +1,19 @@
+/**
+ * Created by Nin on 19/05/2015.
+ */
+public class testbangunan {
+    public static void main(String[] args) {
+        segitiga sgtg = new segitiga(24,143,145);
+        sgtg.cetak();;
+        System.out.println("");
+        sgtg.perhitungansgtg();
+
+        System.out.println();
+        System.out.println();
+
+        lingkaran lngkrn = new lingkaran(28);
+        lngkrn.cetakhasil();
+        System.out.println("");
+        lngkrn.perhitunganlngkrn();
+    }
+}
